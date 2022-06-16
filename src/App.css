@@ -1,0 +1,22 @@
+table, input, label{
+  font-family: monospace;
+  margin-bottom: 0.5rem;
+}
+td{
+  padding: .3rem;
+}
+th{
+  padding-right: 1rem;
+  text-align: left;
+}
+input[type='number']{
+  display: block;
+}
+tr:nth-child(even){
+  background: #eee;
+}
+body{
+  display: flex;
+ justify-content: center;
+ 
+}
